@@ -22,3 +22,5 @@ Imports de bibliothèques :
 
 À noter également que le programme détermine l'extension du fichier en prenant le terme qui vient après le dernier point dans le nom du fichier (Ex: chat.png sera un type png car c’est le dernier terme après le point). Donc, les fichiers ne contenant pas de points dans leur nom de fichier seront catégorisés par le type "sans extension". L'une des faiblesses de ce programme est qu'il saura déterminer le type d'extension qu'avec le nom du fichier et rien d'autre. 
 Voyez des imports comme python-magic, magic-bin, identify ou chardet pour des programmes analysant la structure des fichiers, leurs signatures etc
+
+Cet outil était un projet dans le cadre d'un stage.
